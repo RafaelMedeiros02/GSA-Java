@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="modelDeclaracao" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="540e5fc2-ade6-4dcb-a6ea-4de69396e00d">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="nome" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="serieS" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="prazo" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+     tbl_alunos.`nome` AS tbl_alunos_nome,
+     tbl_alunos.`rm` AS tbl_alunos_rm,
+     tbl_alunos.`ra` AS tbl_alunos_ra,
+     tbl_alunos.`data_nascimento` AS tbl_alunos_data_nascimento,
+     tbl_alunos.`endereco` AS tbl_alunos_endereco,
+     tbl_alunos.`telefone` AS tbl_alunos_telefone,
+     tbl_alunos.`data_ingresso` AS tbl_alunos_data_ingresso,
+     tbl_alunos.`periodo` AS tbl_alunos_periodo,
+     tbl_alunos.`situacao` AS tbl_alunos_situacao
+FROM
+     `tbl_alunos` tbl_alunos]]>
+	</queryString>
+	<field name="tbl_alunos_nome" class="java.lang.String"/>
+	<field name="tbl_alunos_rm" class="java.lang.String"/>
+	<field name="tbl_alunos_ra" class="java.lang.String"/>
+	<field name="tbl_alunos_data_nascimento" class="java.lang.String"/>
+	<field name="tbl_alunos_endereco" class="java.lang.String"/>
+	<field name="tbl_alunos_telefone" class="java.lang.String"/>
+	<field name="tbl_alunos_data_ingresso" class="java.lang.String"/>
+	<field name="tbl_alunos_periodo" class="java.lang.String"/>
+	<field name="tbl_alunos_situacao" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="111" splitType="Stretch">
+			<staticText>
+				<reportElement x="123" y="0" width="432" height="30" uuid="b970e46f-2d71-49dd-be52-b839a1b6dbc1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="20" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Prefeitura Municipal de Tapiratiba - SP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="123" y="30" width="432" height="20" uuid="5f2f7810-56c8-40b8-b7d7-f1b7a1d584d5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="16" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Diretoria Municipal de Educação]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="123" y="50" width="432" height="20" uuid="1eff45ad-791b-4638-bf7e-a140faa15a00"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EMEB Dona Yolanda Pereira de Faria]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="123" y="70" width="432" height="20" uuid="33e881f0-e2fb-4f96-84ac-971a5a24d026"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Rua Serafim Monteiro Filho, S/Nº - Jardim Soledade ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="123" y="89" width="432" height="20" uuid="867e222a-4382-49d0-abbf-485dc8284009"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Fone: (19) 3657-2660 / Email: escola.yolanda@hotmail.com]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="0" width="123" height="109" uuid="5feb4ebe-eca3-42e6-acb6-9e86336c2c4a"/>
+				<imageExpression><![CDATA["\\Util\\logo.jpg"]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="0" y="109" width="555" height="1" uuid="a0568b20-7d72-43e2-bbba-df52e94acc98"/>
+			</line>
+		</band>
+	</title>
+	<detail>
+		<band height="512" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="15" width="555" height="20" uuid="a7a81e34-4503-44d9-b0eb-ca2a437f31fd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="14" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Declaração de Concessão de Vaga]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="94" width="194" height="20" uuid="6cd0455a-f155-4512-a45e-0ffc202f96de"/>
+				<textElement>
+					<font fontName="Arial" size="14"/>
+				</textElement>
+				<text><![CDATA[Declaro para devidos fins que:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="114" width="165" height="20" uuid="9f1fd91c-58ce-43b9-b6b0-bfb633f2d7d6"/>
+				<textElement>
+					<font fontName="Arial" size="14"/>
+				</textElement>
+				<text><![CDATA[Solicitou uma vaga no (a):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="134" width="344" height="20" uuid="2de13644-bd0e-4db9-93cd-caef978a612e"/>
+				<textElement>
+					<font fontName="Arial" size="14"/>
+				</textElement>
+				<text><![CDATA[desde que traga os documentos exigidos no prazo de:]]></text>
+			</staticText>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="327" y="249" width="228" height="25" uuid="bc0af23a-60e3-43f7-88b1-ba250e45106d"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="227" y="249" width="100" height="25" uuid="3a505e1f-1d3a-4338-bc1f-a906dc32dbbb"/>
+				<textElement textAlignment="Right">
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tapiratiba - ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="172" y="451" width="222" height="1" uuid="774f7e6a-b1a6-465e-8533-c23518b333e9"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="452" width="555" height="20" uuid="7e526cc4-b808-4edd-9972-d9f2c10ab53c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Viviane Cristina Higino Ferraz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="472" width="555" height="20" uuid="4eced18a-42e6-4688-abd9-95696885bc3f"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[RG: 33.685.916-3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="492" width="555" height="20" uuid="4850246d-6ca8-4728-b7c4-5b6bd420c756"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Diretora de Escola]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="184" y="114" width="29" height="20" uuid="b37be9ae-f245-4bbb-a53c-548d04d27965"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{serieS}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="213" y="114" width="321" height="20" uuid="94cc3c54-b05c-49b7-8ca7-63130dfb5b2f"/>
+				<textElement>
+					<font fontName="Arial" size="14"/>
+				</textElement>
+				<text><![CDATA[ano do Ensino Básico, a qual lhe será concedida]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="363" y="134" width="31" height="20" uuid="2cd60c2d-bc93-4e2d-a107-4aa4f63311ac"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prazo}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="394" y="134" width="40" height="20" uuid="9ec39d83-872c-4d99-8640-8004850eeeae"/>
+				<textElement>
+					<font fontName="Arial" size="14"/>
+				</textElement>
+				<text><![CDATA[Dias.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="213" y="94" width="321" height="20" uuid="148d059b-9695-407d-8da2-00d63d4f4544"/>
+				<textElement>
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{nome}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="34" width="57" height="20" uuid="83c283fe-e154-49dc-ae8a-489e52aa74fa"/>
+				<text><![CDATA[Emitido as:]]></text>
+			</staticText>
+			<textField pattern="HH.mm">
+				<reportElement x="58" y="34" width="65" height="20" uuid="fd051c11-ec5b-4db4-95f6-29d76188029c"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="123" y="34" width="156" height="20" uuid="7cba0c88-b65a-4f5d-a2bf-5c4aff982167"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="2" y="33" width="553" height="1" uuid="5a6cde01-826a-4194-9b27-b6b06fc873ca"/>
+			</line>
+		</band>
+	</pageFooter>
+</jasperReport>

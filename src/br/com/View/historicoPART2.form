@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,35,0,0,3,-24"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" pref="839" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="55" pref="55" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="93" pref="93" max="-2" attributes="0"/>
+                      <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="110" pref="110" max="-2" attributes="0"/>
+                      <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="96" pref="96" max="-2" attributes="0"/>
+                      <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="97" pref="97" max="-2" attributes="0"/>
+                      <Component id="jLabel46" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jSeparator2" min="-2" pref="839" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextField1AnoLP" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="jTextField1AnoArte" min="-2" pref="44" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="jTextField1AnoEdFisica" min="-2" pref="44" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="jTextField1AnoHist" min="-2" pref="44" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="jTextField1AnoGeo" min="-2" pref="44" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="jTextField1AnoMat" min="-2" pref="44" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Component id="jTextField1AnoCienc" min="-2" pref="44" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                                      <Component id="jTextField1AnoIngl" min="-2" pref="44" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                              <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                              <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                              <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                              <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                              <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jSeparator3" min="-2" pref="12" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextField2AnoLP" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jTextField2AnoArte" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jTextField2AnoEdFisica" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jTextField2AnoHist" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jTextField2AnoGeo" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jTextField2AnoMat" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jTextField2AnoCienc" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                              <Component id="jTextField2AnoIngl" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jSeparator4" min="-2" pref="12" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextField3AnoLP" min="-2" pref="46" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField3AnoArte" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField3AnoEdFisica" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField3AnoHist" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField3AnoGeo" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField3AnoMat" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField3AnoCienc" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                              <Component id="jTextField3AnoIngl" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel36" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel34" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel35" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel33" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                              <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jSeparator5" min="-2" pref="12" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextField4AnoLP" min="-2" pref="46" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField4AnoArte" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField4AnoEdFisica" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField4AnoHist" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField4AnoGeo" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField4AnoMat" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField4AnoCienc" min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                              <Component id="jTextField4AnoIngl" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel40" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                              <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jSeparator6" min="-2" pref="12" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextField5AnoLP" min="-2" pref="46" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField5AnoArte" min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="jTextField5AnoEdFisica" min="-2" pref="42" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                              <Component id="jTextField5AnoHist" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                              <Component id="jTextField5AnoGeo" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                              <Component id="jTextField5AnoMat" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                              <Component id="jTextField5AnoCienc" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                              <Component id="jTextField5AnoIngl" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jSeparator8" min="-2" pref="839" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="135" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel46" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jTextField1AnoLP" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField1AnoArte" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField1AnoEdFisica" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField1AnoHist" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                      <Component id="jTextField1AnoGeo" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField1AnoMat" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField1AnoCienc" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField1AnoIngl" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="155" pref="155" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="55" pref="55" max="-2" attributes="0"/>
+                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="117" pref="117" max="-2" attributes="0"/>
+                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="43" pref="43" max="-2" attributes="0"/>
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jSeparator3" min="-2" pref="360" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jTextField2AnoLP" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField2AnoArte" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField2AnoEdFisica" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField2AnoHist" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                      <Component id="jTextField2AnoGeo" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField2AnoMat" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField2AnoCienc" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField2AnoIngl" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                      <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="97" pref="97" max="-2" attributes="0"/>
+                      <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="192" pref="192" max="-2" attributes="0"/>
+                      <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="335" pref="335" max="-2" attributes="0"/>
+                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="229" pref="229" max="-2" attributes="0"/>
+                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="43" pref="43" max="-2" attributes="0"/>
+                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jSeparator4" min="-2" pref="360" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jTextField3AnoLP" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField3AnoArte" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField3AnoEdFisica" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField3AnoHist" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                      <Component id="jTextField3AnoGeo" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField3AnoMat" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField3AnoCienc" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField3AnoIngl" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="jLabel36" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="135" pref="135" max="-2" attributes="0"/>
+                      <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="60" pref="60" max="-2" attributes="0"/>
+                      <Component id="jLabel34" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="117" pref="117" max="-2" attributes="0"/>
+                      <Component id="jLabel35" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="80" pref="80" max="-2" attributes="0"/>
+                      <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="229" pref="229" max="-2" attributes="0"/>
+                      <Component id="jLabel33" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="43" pref="43" max="-2" attributes="0"/>
+                      <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="335" pref="335" max="-2" attributes="0"/>
+                      <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jSeparator5" min="-2" pref="360" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jTextField4AnoLP" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField4AnoArte" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField4AnoEdFisica" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField4AnoHist" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                      <Component id="jTextField4AnoGeo" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField4AnoMat" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField4AnoCienc" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField4AnoIngl" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="43" pref="43" max="-2" attributes="0"/>
+                      <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel40" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                      <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
+                      <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="55" pref="55" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jSeparator6" min="-2" pref="360" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jTextField5AnoLP" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField5AnoArte" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField5AnoEdFisica" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField5AnoHist" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                      <Component id="jTextField5AnoGeo" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField5AnoMat" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField5AnoCienc" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                      <Component id="jTextField5AnoIngl" min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+              <Component id="jSeparator8" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="jTextField1AnoGeo">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1&#xba; Ano/S&#xe9;rie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="            Geografia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1AnoHist">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="          Matem&#xe1;tica:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1AnoMat">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="              Ci&#xea;ncias:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1AnoCienc">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                  Ingl&#xea;s:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xed;ngua Portugesa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1AnoIngl">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1AnoLP">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                    Arte:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1AnoArte">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             Ed.Fis&#xed;ca:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Notas / Ano "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1AnoEdFisica">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="               Hist&#xf3;ria:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2AnoGeo">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2AnoIngl">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2AnoLP">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="               Geografia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2AnoHist">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                        Arte:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             Matem&#xe1;tica:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2AnoArte">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2AnoMat">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                 Ed.Fis&#xed;ca:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                  Ci&#xea;ncias:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2AnoCienc">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2AnoEdFisica">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                     Ingl&#xea;s:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                   Hist&#xf3;ria:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xed;ngua Portugesa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="2&#xba; Ano/S&#xe9;rie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator4">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3AnoIngl">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3AnoLP">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="            Geografia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3AnoHist">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                    Arte:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel22">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="          Matem&#xe1;tica:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3AnoArte">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3AnoMat">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel23">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             Ed.Fis&#xed;ca:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel24">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="              Ci&#xea;ncias:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3AnoCienc">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3AnoEdFisica">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel25">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                  Ingl&#xea;s:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel26">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="               Hist&#xf3;ria:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel27">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xed;ngua Portugesa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3AnoGeo">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator5">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel28">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="3&#xba; Ano/S&#xe9;rie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4AnoIngl">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4AnoLP">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel29">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="            Geografia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4AnoHist">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel30">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                    Arte:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel31">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="          Matem&#xe1;tica:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4AnoArte">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4AnoMat">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel32">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             Ed.Fis&#xed;ca:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel33">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="              Ci&#xea;ncias:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4AnoCienc">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4AnoEdFisica">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel34">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                  Ingl&#xea;s:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel35">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="               Hist&#xf3;ria:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel36">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xed;ngua Portugesa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4AnoGeo">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator6">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel37">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="4&#xba; Ano/S&#xe9;rie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel38">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="              Ci&#xea;ncias:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5AnoCienc">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5AnoEdFisica">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel39">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                  Ingl&#xea;s:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel40">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="               Hist&#xf3;ria:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel41">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xed;ngua Portugesa:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5AnoGeo">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5AnoIngl">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5AnoLP">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel42">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="            Geografia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5AnoHist">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel43">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                    Arte:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel44">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="          Matem&#xe1;tica:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5AnoArte">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5AnoMat">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel45">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             Ed.Fis&#xed;ca:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel46">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="5&#xba; Ano/S&#xe9;rie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator8">
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Avan&#xe7;ar &gt;&gt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Transferido"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Transferido"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Transferido"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Transferido"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Transferido"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

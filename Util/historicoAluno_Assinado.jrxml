@@ -1,0 +1,1715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="modelDeclaracao" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="540e5fc2-ade6-4dcb-a6ea-4de69396e00d">
+	<property name="ireport.zoom" value="1.3310000000000015"/>
+	<property name="ireport.x" value="87"/>
+	<property name="ireport.y" value="694"/>
+	<parameter name="RM" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+     tbl_historico.`cod_historico` AS tbl_historico_cod_historico,
+     tbl_historico.`nome_aluno` AS tbl_historico_nome_aluno,
+     tbl_historico.`ra` AS tbl_historico_ra,
+     tbl_historico.`rm` AS tbl_historico_rm,
+     tbl_historico.`cidade_nascimento` AS tbl_historico_cidade_nascimento,
+     tbl_historico.`nacionalidade` AS tbl_historico_nacionalidade,
+     tbl_historico.`data_nasc` AS tbl_historico_data_nasc,
+     tbl_historico.`estado` AS tbl_historico_estado,
+     tbl_historico.`lp_1` AS tbl_historico_lp_1,
+     tbl_historico.`a_1` AS tbl_historico_a_1,
+     tbl_historico.`edf_1` AS tbl_historico_edf_1,
+     tbl_historico.`hist_1` AS tbl_historico_hist_1,
+     tbl_historico.`geo_1` AS tbl_historico_geo_1,
+     tbl_historico.`mat_1` AS tbl_historico_mat_1,
+     tbl_historico.`cienc_1` AS tbl_historico_cienc_1,
+     tbl_historico.`ingl_1` AS tbl_historico_ingl_1,
+     tbl_historico.`lp_2` AS tbl_historico_lp_2,
+     tbl_historico.`a_2` AS tbl_historico_a_2,
+     tbl_historico.`edf_2` AS tbl_historico_edf_2,
+     tbl_historico.`hist_2` AS tbl_historico_hist_2,
+     tbl_historico.`geo_2` AS tbl_historico_geo_2,
+     tbl_historico.`mat_2` AS tbl_historico_mat_2,
+     tbl_historico.`cienc_2` AS tbl_historico_cienc_2,
+     tbl_historico.`ingl_2` AS tbl_historico_ingl_2,
+     tbl_historico.`lp_3` AS tbl_historico_lp_3,
+     tbl_historico.`a_3` AS tbl_historico_a_3,
+     tbl_historico.`edf_3` AS tbl_historico_edf_3,
+     tbl_historico.`hist_3` AS tbl_historico_hist_3,
+     tbl_historico.`geo_3` AS tbl_historico_geo_3,
+     tbl_historico.`mat_3` AS tbl_historico_mat_3,
+     tbl_historico.`cienc_3` AS tbl_historico_cienc_3,
+     tbl_historico.`ingl_3` AS tbl_historico_ingl_3,
+     tbl_historico.`lp_4` AS tbl_historico_lp_4,
+     tbl_historico.`a_4` AS tbl_historico_a_4,
+     tbl_historico.`edf_4` AS tbl_historico_edf_4,
+     tbl_historico.`hist_4` AS tbl_historico_hist_4,
+     tbl_historico.`geo_4` AS tbl_historico_geo_4,
+     tbl_historico.`mat_4` AS tbl_historico_mat_4,
+     tbl_historico.`cienc_4` AS tbl_historico_cienc_4,
+     tbl_historico.`ingl_4` AS tbl_historico_ingl_4,
+     tbl_historico.`lp_5` AS tbl_historico_lp_5,
+     tbl_historico.`a_5` AS tbl_historico_a_5,
+     tbl_historico.`edf_5` AS tbl_historico_edf_5,
+     tbl_historico.`hist_5` AS tbl_historico_hist_5,
+     tbl_historico.`mat_5` AS tbl_historico_mat_5,
+     tbl_historico.`geo_5` AS tbl_historico_geo_5,
+     tbl_historico.`ingl_5` AS tbl_historico_ingl_5,
+     tbl_historico.`cienc_5` AS tbl_historico_cienc_5,
+     tbl_historico.`lp1b` AS tbl_historico_lp1b,
+     tbl_historico.`a1b` AS tbl_historico_a1b,
+     tbl_historico.`edf1b` AS tbl_historico_edf1b,
+     tbl_historico.`hist1b` AS tbl_historico_hist1b,
+     tbl_historico.`geo1b` AS tbl_historico_geo1b,
+     tbl_historico.`mat1b` AS tbl_historico_mat1b,
+     tbl_historico.`cienc1b` AS tbl_historico_cienc1b,
+     tbl_historico.`ingl1b` AS tbl_historico_ingl1b,
+     tbl_historico.`lp2b` AS tbl_historico_lp2b,
+     tbl_historico.`a2b` AS tbl_historico_a2b,
+     tbl_historico.`edf2b` AS tbl_historico_edf2b,
+     tbl_historico.`hist2b` AS tbl_historico_hist2b,
+     tbl_historico.`geo2b` AS tbl_historico_geo2b,
+     tbl_historico.`mat2b` AS tbl_historico_mat2b,
+     tbl_historico.`cienc2b` AS tbl_historico_cienc2b,
+     tbl_historico.`ingl2b` AS tbl_historico_ingl2b,
+     tbl_historico.`lp3b` AS tbl_historico_lp3b,
+     tbl_historico.`a3b` AS tbl_historico_a3b,
+     tbl_historico.`edf3b` AS tbl_historico_edf3b,
+     tbl_historico.`hist3b` AS tbl_historico_hist3b,
+     tbl_historico.`geo3b` AS tbl_historico_geo3b,
+     tbl_historico.`mat3b` AS tbl_historico_mat3b,
+     tbl_historico.`cienc3b` AS tbl_historico_cienc3b,
+     tbl_historico.`ingl3b` AS tbl_historico_ingl3b,
+     tbl_historico.`lp4b` AS tbl_historico_lp4b,
+     tbl_historico.`a4b` AS tbl_historico_a4b,
+     tbl_historico.`edf4b` AS tbl_historico_edf4b,
+     tbl_historico.`hist4b` AS tbl_historico_hist4b,
+     tbl_historico.`geo4b` AS tbl_historico_geo4b,
+     tbl_historico.`mat4b` AS tbl_historico_mat4b,
+     tbl_historico.`cienc4b` AS tbl_historico_cienc4b,
+     tbl_historico.`ingl4b` AS tbl_historico_ingl4b,
+     tbl_historico.`ano1` AS tbl_historico_ano1,
+     tbl_historico.`serie1` AS tbl_historico_serie1,
+     tbl_historico.`escola1` AS tbl_historico_escola1,
+     tbl_historico.`cidade1` AS tbl_historico_cidade1,
+     tbl_historico.`estado1` AS tbl_historico_estado1,
+     tbl_historico.`ano2` AS tbl_historico_ano2,
+     tbl_historico.`serie2` AS tbl_historico_serie2,
+     tbl_historico.`escola2` AS tbl_historico_escola2,
+     tbl_historico.`cidade2` AS tbl_historico_cidade2,
+     tbl_historico.`estado2` AS tbl_historico_estado2,
+     tbl_historico.`ano3` AS tbl_historico_ano3,
+     tbl_historico.`serie3` AS tbl_historico_serie3,
+     tbl_historico.`escola3` AS tbl_historico_escola3,
+     tbl_historico.`cidade3` AS tbl_historico_cidade3,
+     tbl_historico.`estado3` AS tbl_historico_estado3,
+     tbl_historico.`ano4` AS tbl_historico_ano4,
+     tbl_historico.`serie4` AS tbl_historico_serie4,
+     tbl_historico.`escola4` AS tbl_historico_escola4,
+     tbl_historico.`cidade4` AS tbl_historico_cidade4,
+     tbl_historico.`estado4` AS tbl_historico_estado4,
+     tbl_historico.`ano5` AS tbl_historico_ano5,
+     tbl_historico.`serie5` AS tbl_historico_serie5,
+     tbl_historico.`escola5` AS tbl_historico_escola5,
+     tbl_historico.`cidade5` AS tbl_historico_cidade5,
+     tbl_historico.`estado5` AS tbl_historico_estado5,
+     tbl_historico.`aptoACursar` AS tbl_historico_aptoACursar,
+     tbl_historico.`ensino` AS tbl_historico_ensino,
+     tbl_historico.`anoConcluido` AS tbl_historico_anoConcluido,
+     tbl_historico.`letivoConcluido` AS tbl_historico_letivoConcluido
+FROM
+     `tbl_historico` tbl_historico
+WHERE
+     tbl_historico.rm = $P{RM}]]>
+	</queryString>
+	<field name="tbl_historico_cod_historico" class="java.lang.Long"/>
+	<field name="tbl_historico_nome_aluno" class="java.lang.String"/>
+	<field name="tbl_historico_ra" class="java.lang.String"/>
+	<field name="tbl_historico_rm" class="java.lang.String"/>
+	<field name="tbl_historico_cidade_nascimento" class="java.lang.String"/>
+	<field name="tbl_historico_nacionalidade" class="java.lang.String"/>
+	<field name="tbl_historico_data_nasc" class="java.lang.String"/>
+	<field name="tbl_historico_estado" class="java.lang.String"/>
+	<field name="tbl_historico_lp_1" class="java.lang.String"/>
+	<field name="tbl_historico_a_1" class="java.lang.String"/>
+	<field name="tbl_historico_edf_1" class="java.lang.String"/>
+	<field name="tbl_historico_hist_1" class="java.lang.String"/>
+	<field name="tbl_historico_geo_1" class="java.lang.String"/>
+	<field name="tbl_historico_mat_1" class="java.lang.String"/>
+	<field name="tbl_historico_cienc_1" class="java.lang.String"/>
+	<field name="tbl_historico_ingl_1" class="java.lang.String"/>
+	<field name="tbl_historico_lp_2" class="java.lang.String"/>
+	<field name="tbl_historico_a_2" class="java.lang.String"/>
+	<field name="tbl_historico_edf_2" class="java.lang.String"/>
+	<field name="tbl_historico_hist_2" class="java.lang.String"/>
+	<field name="tbl_historico_geo_2" class="java.lang.String"/>
+	<field name="tbl_historico_mat_2" class="java.lang.String"/>
+	<field name="tbl_historico_cienc_2" class="java.lang.String"/>
+	<field name="tbl_historico_ingl_2" class="java.lang.String"/>
+	<field name="tbl_historico_lp_3" class="java.lang.String"/>
+	<field name="tbl_historico_a_3" class="java.lang.String"/>
+	<field name="tbl_historico_edf_3" class="java.lang.String"/>
+	<field name="tbl_historico_hist_3" class="java.lang.String"/>
+	<field name="tbl_historico_geo_3" class="java.lang.String"/>
+	<field name="tbl_historico_mat_3" class="java.lang.String"/>
+	<field name="tbl_historico_cienc_3" class="java.lang.String"/>
+	<field name="tbl_historico_ingl_3" class="java.lang.String"/>
+	<field name="tbl_historico_lp_4" class="java.lang.String"/>
+	<field name="tbl_historico_a_4" class="java.lang.String"/>
+	<field name="tbl_historico_edf_4" class="java.lang.String"/>
+	<field name="tbl_historico_hist_4" class="java.lang.String"/>
+	<field name="tbl_historico_geo_4" class="java.lang.String"/>
+	<field name="tbl_historico_mat_4" class="java.lang.String"/>
+	<field name="tbl_historico_cienc_4" class="java.lang.String"/>
+	<field name="tbl_historico_ingl_4" class="java.lang.String"/>
+	<field name="tbl_historico_lp_5" class="java.lang.String"/>
+	<field name="tbl_historico_a_5" class="java.lang.String"/>
+	<field name="tbl_historico_edf_5" class="java.lang.String"/>
+	<field name="tbl_historico_hist_5" class="java.lang.String"/>
+	<field name="tbl_historico_mat_5" class="java.lang.String"/>
+	<field name="tbl_historico_geo_5" class="java.lang.String"/>
+	<field name="tbl_historico_ingl_5" class="java.lang.String"/>
+	<field name="tbl_historico_cienc_5" class="java.lang.String"/>
+	<field name="tbl_historico_lp1b" class="java.lang.String"/>
+	<field name="tbl_historico_a1b" class="java.lang.String"/>
+	<field name="tbl_historico_edf1b" class="java.lang.String"/>
+	<field name="tbl_historico_hist1b" class="java.lang.String"/>
+	<field name="tbl_historico_geo1b" class="java.lang.String"/>
+	<field name="tbl_historico_mat1b" class="java.lang.String"/>
+	<field name="tbl_historico_cienc1b" class="java.lang.String"/>
+	<field name="tbl_historico_ingl1b" class="java.lang.String"/>
+	<field name="tbl_historico_lp2b" class="java.lang.String"/>
+	<field name="tbl_historico_a2b" class="java.lang.String"/>
+	<field name="tbl_historico_edf2b" class="java.lang.String"/>
+	<field name="tbl_historico_hist2b" class="java.lang.String"/>
+	<field name="tbl_historico_geo2b" class="java.lang.String"/>
+	<field name="tbl_historico_mat2b" class="java.lang.String"/>
+	<field name="tbl_historico_cienc2b" class="java.lang.String"/>
+	<field name="tbl_historico_ingl2b" class="java.lang.String"/>
+	<field name="tbl_historico_lp3b" class="java.lang.String"/>
+	<field name="tbl_historico_a3b" class="java.lang.String"/>
+	<field name="tbl_historico_edf3b" class="java.lang.String"/>
+	<field name="tbl_historico_hist3b" class="java.lang.String"/>
+	<field name="tbl_historico_geo3b" class="java.lang.String"/>
+	<field name="tbl_historico_mat3b" class="java.lang.String"/>
+	<field name="tbl_historico_cienc3b" class="java.lang.String"/>
+	<field name="tbl_historico_ingl3b" class="java.lang.String"/>
+	<field name="tbl_historico_lp4b" class="java.lang.String"/>
+	<field name="tbl_historico_a4b" class="java.lang.String"/>
+	<field name="tbl_historico_edf4b" class="java.lang.String"/>
+	<field name="tbl_historico_hist4b" class="java.lang.String"/>
+	<field name="tbl_historico_geo4b" class="java.lang.String"/>
+	<field name="tbl_historico_mat4b" class="java.lang.String"/>
+	<field name="tbl_historico_cienc4b" class="java.lang.String"/>
+	<field name="tbl_historico_ingl4b" class="java.lang.String"/>
+	<field name="tbl_historico_ano1" class="java.lang.String"/>
+	<field name="tbl_historico_serie1" class="java.lang.String"/>
+	<field name="tbl_historico_escola1" class="java.lang.String"/>
+	<field name="tbl_historico_cidade1" class="java.lang.String"/>
+	<field name="tbl_historico_estado1" class="java.lang.String"/>
+	<field name="tbl_historico_ano2" class="java.lang.String"/>
+	<field name="tbl_historico_serie2" class="java.lang.String"/>
+	<field name="tbl_historico_escola2" class="java.lang.String"/>
+	<field name="tbl_historico_cidade2" class="java.lang.String"/>
+	<field name="tbl_historico_estado2" class="java.lang.String"/>
+	<field name="tbl_historico_ano3" class="java.lang.String"/>
+	<field name="tbl_historico_serie3" class="java.lang.String"/>
+	<field name="tbl_historico_escola3" class="java.lang.String"/>
+	<field name="tbl_historico_cidade3" class="java.lang.String"/>
+	<field name="tbl_historico_estado3" class="java.lang.String"/>
+	<field name="tbl_historico_ano4" class="java.lang.String"/>
+	<field name="tbl_historico_serie4" class="java.lang.String"/>
+	<field name="tbl_historico_escola4" class="java.lang.String"/>
+	<field name="tbl_historico_cidade4" class="java.lang.String"/>
+	<field name="tbl_historico_estado4" class="java.lang.String"/>
+	<field name="tbl_historico_ano5" class="java.lang.String"/>
+	<field name="tbl_historico_serie5" class="java.lang.String"/>
+	<field name="tbl_historico_escola5" class="java.lang.String"/>
+	<field name="tbl_historico_cidade5" class="java.lang.String"/>
+	<field name="tbl_historico_estado5" class="java.lang.String"/>
+	<field name="tbl_historico_aptoACursar" class="java.lang.String"/>
+	<field name="tbl_historico_ensino" class="java.lang.String"/>
+	<field name="tbl_historico_anoConcluido" class="java.lang.String"/>
+	<field name="tbl_historico_letivoConcluido" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="104" splitType="Stretch">
+			<staticText>
+				<reportElement x="109" y="0" width="446" height="20" uuid="b970e46f-2d71-49dd-be52-b839a1b6dbc1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="16" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[Prefeitura Municipal de Tapiratiba - SP]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="109" y="20" width="446" height="20" uuid="5f2f7810-56c8-40b8-b7d7-f1b7a1d584d5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="14" isBold="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[COORDENADORIA MUNICIPAL DE EDUCAÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="40" width="446" height="20" uuid="1eff45ad-791b-4638-bf7e-a140faa15a00"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EMEB Dona Yolanda Pereira de Faria]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="108" y="60" width="446" height="14" uuid="33e881f0-e2fb-4f96-84ac-971a5a24d026"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<text><![CDATA[Rua Serafim Monteiro Filho, s/nº Jd. Soledade - Tapiratiba - SP - Cep 13.760.000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="108" y="74" width="446" height="15" uuid="867e222a-4382-49d0-abbf-485dc8284009"/>
+				<textElement textAlignment="Center">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Fone: (19) 3657-2660 / Email: escola.yolanda@hotmail.com]]></text>
+			</staticText>
+			<image>
+				<reportElement x="9" y="0" width="99" height="79" uuid="5feb4ebe-eca3-42e6-acb6-9e86336c2c4a"/>
+				<imageExpression><![CDATA["\\Util\\logo.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="89" width="555" height="15" uuid="97aae620-aec8-4701-8a98-f269a6792141"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ato de Criação:Decreto nº 36.509 de 24/02/1993 - Public. DOE 25/02/1993 - Municipalizada Lei nº1105/98 de 20/02/1998]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="103" width="555" height="1" uuid="8fd7e68b-edd1-431b-90fc-bdfeb15871f2"/>
+			</line>
+		</band>
+	</title>
+	<detail>
+		<band height="664" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="20" uuid="d49171f1-983b-4d5b-9348-b5b191f36538"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HISTÓRICO ESCOLAR]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="20" width="555" height="1" uuid="0e6ea4ee-2e8b-4b80-a737-ddd1873c6838"/>
+			</line>
+			<staticText>
+				<reportElement x="2" y="21" width="36" height="19" uuid="6b5de003-b64a-4a36-8cc5-eb774656e11c"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[Nome:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="458" y="20" width="24" height="22" uuid="af2af50a-faf9-4fe0-961a-19d12ca5e4cb"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[RM:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="41" width="555" height="1" uuid="03680855-d586-4321-b219-145ae0fbac81"/>
+			</line>
+			<staticText>
+				<reportElement x="313" y="21" width="23" height="20" uuid="76efd5eb-958a-4c78-b1a8-2719acbe58a4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[RA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="43" width="56" height="18" uuid="655c38b3-2c0a-4213-b4c1-9bb9d1ceade9"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[Nascimento:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="43" width="30" height="19" uuid="69ef8c0b-b437-44e5-89e1-7c616fd94bc6"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[Data:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="62" width="555" height="1" uuid="8dea9bc6-6def-4bdf-8b4a-351aea1d0406"/>
+			</line>
+			<staticText>
+				<reportElement x="210" y="64" width="48" height="20" uuid="0eee1289-7875-4238-8811-b4aad81ee98c"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[Estado:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="64" width="86" height="19" uuid="460e94bc-73d6-49c4-963e-b7e31798fab1"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[Nacionalidade:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="83" width="555" height="1" uuid="35151340-18ec-483b-a83e-42703505707e"/>
+			</line>
+			<staticText>
+				<reportElement x="-1" y="84" width="555" height="20" uuid="0695076f-f8a6-457e-8fd4-032343b420cb"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RESULTADOS DOS ESTUDOS REALIZADOS NA EDUCAÇÃO BÁSICA DAS SÉRIES INICIAIS ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="114" width="555" height="1" uuid="8d28cc99-3e39-4297-8a4d-3f3e8c6d3ec0"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="116" width="152" height="10" uuid="5513cb41-f0de-4f1f-a777-8846e06cfad6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CURRÍCULO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="126" width="152" height="11" uuid="8da20240-2020-43aa-9141-9c25a1a36b4f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BASE NACIONAL COMUM]]></text>
+			</staticText>
+			<line>
+				<reportElement x="153" y="116" width="1" height="146" uuid="c35b1094-56c1-42ad-bce9-3aebb0f591cf"/>
+			</line>
+			<line>
+				<reportElement x="1" y="137" width="554" height="1" uuid="a2ec8182-6560-42f3-8241-2e6044735fa4"/>
+			</line>
+			<staticText>
+				<reportElement x="2" y="138" width="153" height="10" uuid="95060912-ba12-4cc3-b405-fe043db706ad"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Língua Portuguesa]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="148" width="552" height="1" uuid="4123d88a-9a3a-4b8c-9ab5-6dc1f752dffd"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="149" width="152" height="11" uuid="f0016615-7844-4247-836c-cc447c0ec909"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Arte]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="160" width="554" height="1" uuid="06b92de5-7219-46c8-a49a-ea36eaede57b"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="161" width="152" height="11" uuid="d47bf495-6553-4022-9950-4da985c7c7bf"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Ed. Física]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-1" y="172" width="555" height="1" uuid="bcdcfb81-54b0-4d70-8526-53a8dcf41ba8"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="173" width="154" height="10" uuid="a1e3ad9c-60ce-43fb-93cf-ed295ab00a37"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[História]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="183" width="554" height="1" uuid="3d7167d5-ff85-4de8-af7d-8ec9ca3b2082"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="184" width="154" height="11" uuid="05c8b020-945c-481f-a727-235ac00e07bc"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Geografia]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="195" width="555" height="1" uuid="883a9c61-d7b9-4ffa-9460-1a5a1762e556"/>
+			</line>
+			<line>
+				<reportElement x="-1" y="207" width="556" height="1" uuid="6ddb3d9e-be8c-492e-b9ab-5c6d4ef502cb"/>
+			</line>
+			<line>
+				<reportElement x="-1" y="218" width="557" height="1" uuid="8c695ca3-a09e-4099-8de7-afad1c2ef166"/>
+			</line>
+			<line>
+				<reportElement x="1" y="229" width="555" height="1" uuid="22be3981-57d9-465c-84eb-543b421b1e16"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="242" width="152" height="20" uuid="d4951117-eb2a-447f-8b24-19157cc97ea5"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Total da Carga Horária]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="154" y="116" width="401" height="10" uuid="7fc6d0e5-3579-4a6a-80eb-7b103823a23c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ANO / SÉRIE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="154" y="126" width="80" height="12" uuid="39e66844-6ecd-4796-af88-016a9469435e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1º]]></text>
+			</staticText>
+			<line>
+				<reportElement x="234" y="126" width="1" height="137" uuid="867d8530-6730-4c94-85c3-31529230d7a9"/>
+			</line>
+			<staticText>
+				<reportElement x="234" y="126" width="80" height="12" uuid="c3a3eb05-ac8e-49d4-a8ff-4b3465423163"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2º]]></text>
+			</staticText>
+			<line>
+				<reportElement x="314" y="126" width="1" height="137" uuid="5c270e56-b203-4607-a574-b6bec6500ff3"/>
+			</line>
+			<staticText>
+				<reportElement x="314" y="126" width="80" height="12" uuid="1c86bf4c-2a6d-4502-a5dd-d33efd977435"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3º]]></text>
+			</staticText>
+			<line>
+				<reportElement x="393" y="126" width="1" height="137" uuid="245c0b38-5d8e-4806-a14e-cf29f451dcb0"/>
+			</line>
+			<staticText>
+				<reportElement x="393" y="126" width="80" height="11" uuid="e6110108-7a54-4919-84b6-dbf16578ff6a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4º]]></text>
+			</staticText>
+			<line>
+				<reportElement x="473" y="126" width="1" height="137" uuid="a1c04a3b-52d2-4edd-8aa7-ddb586daa7c9"/>
+			</line>
+			<staticText>
+				<reportElement x="471" y="126" width="80" height="11" uuid="6d4ebb90-1e53-4c7b-a594-f9d97351679a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[5º]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="275" width="132" height="20" uuid="ca86067d-c2c5-41d5-9946-c7088de3fe70"/>
+				<textElement>
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[ Componentes Curriculares]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="295" width="303" height="1" uuid="850d4e99-ad6b-43f8-bcf9-28cd04573496"/>
+			</line>
+			<line>
+				<reportElement x="2" y="305" width="306" height="1" uuid="0c27a893-f42c-472d-8089-df36724096b2"/>
+			</line>
+			<line>
+				<reportElement x="1" y="316" width="304" height="1" uuid="dd168ecf-0ff0-4e01-bbf7-f74262fe79b1"/>
+			</line>
+			<line>
+				<reportElement x="2" y="326" width="304" height="1" uuid="43636fa6-3980-42a4-8b30-94d417a76fcf"/>
+			</line>
+			<line>
+				<reportElement x="-1" y="337" width="308" height="1" uuid="6e35295a-17fc-4dec-94be-6dfc4fce6f6d"/>
+			</line>
+			<line>
+				<reportElement x="2" y="358" width="304" height="1" uuid="4ef6969a-75c6-4e72-bf86-5c232b31ae38"/>
+			</line>
+			<line>
+				<reportElement x="1" y="369" width="304" height="1" uuid="c0b2ce63-b357-4e62-a7e4-40d978d12c60"/>
+			</line>
+			<line>
+				<reportElement x="3" y="381" width="303" height="1" uuid="0dd66a72-1770-47a6-b48d-a29badb8be46"/>
+			</line>
+			<line>
+				<reportElement x="133" y="275" width="1" height="107" uuid="db8bfefa-9bca-443b-a8a9-cb5652d48325"/>
+			</line>
+			<line>
+				<reportElement x="176" y="275" width="1" height="108" uuid="ec55a219-a709-4c13-86eb-45b2e5c0ea9f"/>
+			</line>
+			<line>
+				<reportElement x="220" y="275" width="1" height="108" uuid="d0ff72bb-4846-454f-8fa1-fae13089e334"/>
+			</line>
+			<line>
+				<reportElement x="264" y="275" width="1" height="108" uuid="8cfa4809-8237-4dbb-9161-9dfba70cf771"/>
+			</line>
+			<line>
+				<reportElement x="471" y="276" width="1" height="105" uuid="b9f8c533-b606-46fc-8d9f-45c92cdb8dcf"/>
+			</line>
+			<staticText>
+				<reportElement x="308" y="276" width="163" height="19" uuid="39d82aba-dc68-422c-9f51-d043ec889937"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<text><![CDATA[De acordo com o Regimento Municipal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="309" y="296" width="130" height="20" uuid="359d12bb-8299-4055-9a1c-a88dca823339"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NOTAS de 0 - 10]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="348" width="303" height="1" uuid="84895118-77e9-4894-a648-410ad4e3c894"/>
+			</line>
+			<staticText>
+				<reportElement x="1" y="196" width="154" height="11" uuid="8f26d3f5-2b4b-421b-af17-240205daf336"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Matematica]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="207" width="153" height="11" uuid="5ddfb348-1ddb-4637-a959-24bbbcf10319"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Ciências]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="218" width="153" height="11" uuid="1988b40d-baca-4d0e-bb0e-4a6795f0f1b1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Parte Diversificada]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="230" width="153" height="11" uuid="da40491a-4b27-4bc2-8f13-12aaeceb1d06"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Inglês]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="241" width="557" height="1" uuid="775db15f-7201-40dd-98a1-5dcca83dea6f"/>
+			</line>
+			<line>
+				<reportElement x="2" y="262" width="557" height="1" uuid="69c788c0-4765-4085-87e4-7067c6a62c07"/>
+			</line>
+			<staticText>
+				<reportElement x="4" y="295" width="151" height="10" uuid="ffc01b13-2a9c-4dee-8f30-64af30f99ed6"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Língua Portuguesa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="305" width="151" height="11" uuid="9204c403-2be4-4de9-85a0-ccbab63bcb72"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Arte]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="316" width="151" height="11" uuid="7b5dc2c4-460f-40d4-b660-dd990f1302ea"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Ed. Física]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="327" width="151" height="10" uuid="a6c8541a-3ca2-4076-a0fd-a6ecf4e44860"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[História]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="337" width="151" height="11" uuid="7c7f064c-8a71-45f3-9df7-0a9b20c05446"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Geografia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="348" width="151" height="11" uuid="3b23fbf4-a275-425a-b072-d472c8e98bdb"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Matematica]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="359" width="151" height="11" uuid="f661c9c0-b1e6-4eb6-a114-7845e190cdff"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Ciências]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="370" width="151" height="11" uuid="83655572-1f76-41ae-9ba8-e94d06805344"/>
+				<textElement textAlignment="Justified">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Inglês]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="275" width="43" height="20" uuid="0014c539-0ef4-46f5-a597-56b2e97463f8"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1º Bim]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="177" y="275" width="43" height="21" uuid="a79cbe54-3423-427d-a22c-0d26374ad67f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2º Bim]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="221" y="275" width="43" height="21" uuid="550b623a-53b3-434a-ab2f-1d9591158081"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[3º Bim]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="264" y="275" width="43" height="21" uuid="06bba7d4-93c2-44c4-a0f9-2add6cf83344"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[4º Bim]]></text>
+			</staticText>
+			<line>
+				<reportElement x="306" y="275" width="1" height="108" uuid="828006a6-407b-4268-bc36-c48f2d6f0cbe"/>
+			</line>
+			<line>
+				<reportElement x="309" y="381" width="162" height="1" uuid="10c0ebbf-db3a-41fb-8c2e-e9c3977932fb"/>
+			</line>
+			<line>
+				<reportElement x="0" y="383" width="553" height="1" uuid="08950c17-55c5-4421-a5d5-fd2aea3a6d9e"/>
+			</line>
+			<staticText>
+				<reportElement x="3" y="394" width="71" height="13" uuid="4abb4845-5ffb-4e2f-a40b-5fdfc0c670cf"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ano]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="74" y="394" width="77" height="13" uuid="a501864b-db08-4948-bfb7-854bacf5d351"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Série]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="151" y="394" width="193" height="13" uuid="5d071486-714b-424d-b26f-75f633f66950"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Escola]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="344" y="394" width="114" height="13" uuid="dffdd0c4-6388-47df-b647-3b6b7699602d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cidade]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="456" y="394" width="97" height="13" uuid="1bdd61d5-316f-4179-9b0d-5af04e847aa4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Estado]]></text>
+			</staticText>
+			<line>
+				<reportElement x="3" y="407" width="548" height="1" uuid="65f85bc2-f16c-421b-8dbd-50a83f83ef54"/>
+			</line>
+			<line>
+				<reportElement x="74" y="394" width="1" height="92" uuid="feae2cfc-111d-45fc-a525-4cf085ace596"/>
+			</line>
+			<line>
+				<reportElement x="150" y="394" width="1" height="92" uuid="a2f02ecf-5f5d-4731-b4c2-958fac0f9276"/>
+			</line>
+			<line>
+				<reportElement x="343" y="394" width="1" height="92" uuid="80844311-b0c8-47b0-ae15-ef42333e2ed4"/>
+			</line>
+			<line>
+				<reportElement x="456" y="394" width="1" height="92" uuid="ed357ff7-d8f7-4e9f-b14c-bb3edb80bde0"/>
+			</line>
+			<line>
+				<reportElement x="3" y="423" width="547" height="1" uuid="52a21c0a-968c-4227-9b7e-ce6687619a54"/>
+			</line>
+			<line>
+				<reportElement x="3" y="438" width="548" height="1" uuid="1398d866-81ee-41f8-9a21-b67e03a432b4"/>
+			</line>
+			<line>
+				<reportElement x="3" y="454" width="548" height="1" uuid="369d9f08-7654-4902-b4ff-d64d9c7c6fbd"/>
+			</line>
+			<line>
+				<reportElement x="1" y="470" width="550" height="1" uuid="dceaa1e9-bf84-4804-8b89-c87af47703b9"/>
+			</line>
+			<line>
+				<reportElement x="3" y="485" width="548" height="1" uuid="0b2f7f9f-4dee-47ff-8431-03fb5ef7df4b"/>
+			</line>
+			<staticText>
+				<reportElement x="155" y="486" width="76" height="20" uuid="68f9f9dc-e745-4266-9c93-b426d780e0f0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Apto a cursar o:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="486" width="78" height="21" uuid="f45aa553-52ec-47bc-9a82-e501ee0eb24c"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[ano do Ensino:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="507" width="549" height="10" uuid="db9cc73e-bf27-4029-98d9-fcdca3456cd7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[A diretoria da EMEB "Dona Yolanda Pereira de Faria"- EF- ciclo I, nos termos do Inciso VII, artigo 24 da Lei]]></text>
+			</staticText>
+			<line>
+				<reportElement x="3" y="506" width="550" height="1" uuid="8f9933a6-e132-48eb-a1ba-55b832726523"/>
+			</line>
+			<staticText>
+				<reportElement x="85" y="517" width="286" height="10" uuid="f208542f-d5b8-46a2-9675-33f2acea8a37"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[9394/96 e de acordo com o artigo 177 do R.C.E.M. de Tapiratiba certifica que:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="87" y="528" width="17" height="10" uuid="3bd71695-5deb-4071-b871-228e3bc69012"/>
+				<textElement>
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[RA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="159" y="527" width="51" height="10" uuid="0060c7fd-7822-4835-a05c-81e114310161"/>
+				<textElement>
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[ concluiu o/a:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="106" y="537" width="143" height="11" uuid="99c31c46-5da2-4b2a-af9e-9e5fb5fcb333"/>
+				<textElement>
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[ao prosseguimento de seus estudos no:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="419" y="527" width="55" height="10" uuid="6b65969d-960b-4d49-9be3-d8f991327aa7"/>
+				<textElement>
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[estando apto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="536" width="39" height="11" uuid="0d52ed3d-b322-4af3-b154-14f6ff50b7c0"/>
+				<textElement>
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[do Ensino:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="235" y="527" width="173" height="10" uuid="ee8b8d2f-6c1f-4490-9efb-f8b53741be46"/>
+				<textElement>
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[do Ensino Básico, Ciclo I, no ano letivo de:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="4" y="548" width="547" height="1" uuid="e1b32351-3ded-475e-bfd0-d0ba75537bf3"/>
+			</line>
+			<staticText>
+				<reportElement x="30" y="604" width="201" height="20" uuid="da1834e2-1c2a-4ed4-a49a-6c31a7c99203"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Viviane Cristina Higino Ferraz]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="85" y="624" width="100" height="20" uuid="33202c9c-1d62-4305-8363-4550b7f4bf99"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[RG: 33.684.916-3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="102" y="644" width="75" height="20" uuid="c7f3a288-81ec-4740-be90-04de69a3e070"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Diretor de Escola]]></text>
+			</staticText>
+			<line>
+				<reportElement x="48" y="601" width="172" height="1" uuid="574e676e-7dc5-4a64-a896-b88d916e8a04"/>
+			</line>
+			<textField>
+				<reportElement x="38" y="21" width="267" height="19" uuid="0531d56c-5c3c-4896-a5a4-8dc1c4988709"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_nome_aluno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="336" y="20" width="120" height="20" uuid="26b95377-74f1-45fc-a6b1-4a2a99c35bd1"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ra}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="482" y="20" width="72" height="20" uuid="b75ee271-6102-420c-b2f3-5b9b53b94c74"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_rm}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="58" y="43" width="233" height="18" uuid="cc3e7490-efac-4b6a-b05c-55218c6390b6"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cidade_nascimento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="339" y="43" width="119" height="18" uuid="d61bb318-aa3e-4670-8a6c-296102efdf46"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_data_nasc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="64" y="64" width="113" height="19" uuid="dc0e477c-8b30-417a-b393-004fc2a9def6"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_nacionalidade}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="244" y="64" width="100" height="19" uuid="a4ad81d8-b702-49ec-86e0-fdad02d8dca8"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_estado}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="371" y="517" width="179" height="10" uuid="a4f053a1-4d84-4a5b-9b91-57d85a8d4110"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_nome_aluno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="106" y="526" width="53" height="10" uuid="c87fcc43-f695-45b9-b85e-335c5610204b"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ra}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="158" y="138" width="73" height="10" uuid="2bef0cc2-bef5-4e5d-b43f-d6a6c03e9fc0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_lp_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="157" y="149" width="76" height="11" uuid="8735d072-b3db-41d1-9e47-450cb2f9ad10"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_a_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="157" y="160" width="76" height="12" uuid="c77f66fb-887e-425e-b599-637872580b73"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_edf_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="158" y="173" width="73" height="10" uuid="26a89b21-e54f-4438-9ae4-c411288ec302"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_hist_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="155" y="184" width="79" height="11" uuid="2907d1cc-e116-443c-88bd-0f9529263aa9"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_geo_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="158" y="195" width="73" height="11" uuid="1c6aaa7e-cd5d-4295-958f-ab00ff3d05fd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_mat_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="158" y="208" width="74" height="11" uuid="ab50d8db-f0ae-413d-be28-faf46fcd8f5e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cienc_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="158" y="230" width="73" height="11" uuid="513e375b-f49a-405a-860a-e874d7277b4f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ingl_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="209" width="69" height="10" uuid="0dab1ef4-588f-4c38-9322-3e44dd1d22f2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cienc_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="239" y="161" width="73" height="12" uuid="98f88db8-9977-4bea-b791-b6e0a0186ae7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_edf_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="139" width="69" height="10" uuid="7e814888-15fd-4a0d-966b-c2f0762fe91d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_lp_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="196" width="69" height="11" uuid="35733c93-d545-4225-9e45-c39266688a29"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_mat_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="231" width="69" height="10" uuid="018d746c-f5c7-4df0-bca4-ee379bcadb4d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ingl_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="237" y="185" width="77" height="11" uuid="43a316e1-2794-4ff3-aead-77a53975824e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_geo_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="239" y="172" width="73" height="10" uuid="db035d6c-519b-4d46-98d9-5d23c58647e4"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_hist_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="237" y="150" width="76" height="11" uuid="3579a180-a8f4-4eb0-8981-ec91a552e9f2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_a_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="209" width="69" height="10" uuid="bfcbe612-492f-480e-ad91-c88345b4b95f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cienc_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="172" width="73" height="10" uuid="d440279e-e79e-44cd-b19e-0ad3e04d40d6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_hist_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="139" width="69" height="10" uuid="08df59ee-807e-4dee-af81-e3b1d307f371"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_lp_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="150" width="76" height="11" uuid="c2e0ddd5-0fb6-4b76-8e82-a3ba554bba78"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_a_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="319" y="161" width="73" height="12" uuid="0656e57e-71fd-48e8-8133-2bb9e466ac9e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_edf_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="231" width="69" height="10" uuid="385b8832-b6cd-4d04-b179-aaed12c4ee5b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ingl_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="182" width="77" height="11" uuid="4ed46e66-3f4b-4b5b-93a5-e652abe897c6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_geo_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="320" y="196" width="69" height="11" uuid="2dd8679c-cc46-47be-92ce-23b875240024"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_mat_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="172" width="70" height="10" uuid="bf7daa73-3f63-4778-a596-6c87f4073e2f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_hist_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="396" y="150" width="75" height="11" uuid="dfa96cf2-38ea-42dc-abe1-b220926f2201"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_a_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="399" y="196" width="68" height="11" uuid="4423b5aa-e877-4baf-9c4f-bf9b04d81134"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_mat_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="399" y="139" width="69" height="10" uuid="9ea296f3-e6d7-4aa3-afc0-60bc66a49c90"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_lp_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="399" y="231" width="69" height="10" uuid="d0a0529f-a6db-4fb6-b7c6-63a9e411e945"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ingl_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="161" width="70" height="12" uuid="9cdc8c3d-04c5-4e5e-bc50-da614a04dcaf"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_edf_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="395" y="185" width="76" height="11" uuid="3aec76e4-f5a1-4666-b254-9154372db28a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_geo_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="207" width="70" height="10" uuid="b8eef433-2897-4b94-a463-18891a70030b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cienc_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="478" y="231" width="68" height="10" uuid="36743017-c4eb-4150-b940-f4d27e8f4117"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ingl_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="477" y="150" width="69" height="12" uuid="6b07b732-f8a9-497d-bb75-349fbd057070"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_a_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="477" y="196" width="70" height="10" uuid="b43507d4-7dc5-4fc7-b043-7016c5e58e3e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_mat_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="478" y="185" width="68" height="11" uuid="e49279f1-cf71-4887-a741-356572b9eb5f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_geo_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="475" y="139" width="72" height="11" uuid="43348983-7747-4ae8-8069-680f599c474e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_lp_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="473" y="208" width="77" height="11" uuid="1915906a-04c5-4596-96ab-32d3bff0a0b7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cienc_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="477" y="174" width="69" height="10" uuid="a31e6783-4c03-44da-bc5e-c5366eb5a33e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_hist_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="476" y="162" width="70" height="10" uuid="5fe2f3fd-6789-43da-9213-e8c913d9ded5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_edf_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="133" y="296" width="43" height="10" uuid="ac04d851-7aaf-4f2e-8ccc-abc7045cb22b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_lp1b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="133" y="306" width="43" height="10" uuid="ac5c7d56-6587-44ca-8b0a-6478cdabd543"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_a1b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="131" y="316" width="46" height="10" uuid="3dca4f9d-ee2a-406e-9eac-8fa80c77b089"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_edf1b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="133" y="327" width="43" height="10" uuid="c38a5225-d872-49ef-a285-e7e80ede8c72"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_hist1b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="134" y="339" width="42" height="10" uuid="6f85993e-b09d-45e7-b954-eae318c35cd6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_geo1b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="134" y="349" width="42" height="10" uuid="e720c573-90a1-4110-9512-e40d3b96c7da"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_mat1b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="138" y="359" width="34" height="11" uuid="85f0ff7d-84a4-4742-a411-b2755968845b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cienc1b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="133" y="370" width="43" height="11" uuid="4f3a7a2c-3723-479c-a003-a7deda4112fc"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ingl1b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="176" y="327" width="41" height="10" uuid="12ab99c4-ef84-47b3-a5b6-64b30f54fe15"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_hist2b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="174" y="316" width="46" height="10" uuid="f96f0556-b0c9-4d50-bb7e-6a9f2b485906"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_edf2b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="176" y="306" width="43" height="10" uuid="a807b83c-61a4-46ee-865a-e0ca685646fa"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_a2b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="176" y="296" width="43" height="10" uuid="9f82569c-965a-4ee0-8cb6-eba94d4e8172"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_lp2b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="339" width="40" height="10" uuid="b2d39687-ebaa-4409-8791-554611d174f0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_geo2b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="176" y="370" width="43" height="11" uuid="9109794c-a851-48fe-8e4c-e5e9b97c3340"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ingl2b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="181" y="359" width="34" height="11" uuid="50b7dac0-2533-4fb6-b1bb-e78ea8b6edd7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cienc2b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="177" y="349" width="40" height="10" uuid="11369e7b-38e7-4350-92d5-e68064285a0d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_mat2b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="349" width="42" height="10" uuid="5d518620-8bb9-410d-9b33-15cae934a7da"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_mat3b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="219" y="327" width="43" height="10" uuid="897a1348-84dc-47b9-8fbb-d447f1dc78df"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_hist3b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="219" y="296" width="43" height="10" uuid="cec5005a-ae56-4f72-bb14-6a79b8716c8b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_lp3b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="217" y="316" width="46" height="10" uuid="1e1648c8-d576-4fa1-8d06-965c90b901ef"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_edf3b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="219" y="337" width="42" height="10" uuid="53ac15da-15fe-4a8f-a483-20acddeb7816"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_geo3b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="219" y="307" width="43" height="10" uuid="3d01ec23-437a-4279-aa39-9c031e7bd1d0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_a3b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="224" y="359" width="34" height="11" uuid="3e284df6-64b4-4615-9ddd-cc49257b8188"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cienc3b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="219" y="370" width="43" height="11" uuid="3f474d7c-a290-4ba9-91bd-2cf8a04087d0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ingl3b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="262" y="327" width="44" height="10" uuid="1a84e8af-856b-49b6-88b4-c275a4e32d62"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_hist4b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="316" width="47" height="10" uuid="bccbaa1b-eeed-41be-be3e-01cd94cfdf80"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_edf4b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="263" y="349" width="42" height="10" uuid="5d9f2a40-0226-40c3-a816-a06758795644"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_mat4b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="262" y="296" width="43" height="10" uuid="85fe767f-b9a7-4b84-a634-a28968abf821"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_lp4b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="263" y="306" width="41" height="10" uuid="b2723774-44da-4fbe-be42-072282f4cd19"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_a4b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="262" y="338" width="43" height="10" uuid="910c900e-de38-4118-bcac-9aee9fc55bb8"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_geo4b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="265" y="359" width="38" height="11" uuid="ffd0aa03-46a9-4e13-b113-c98d759f02ac"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cienc4b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="263" y="370" width="43" height="11" uuid="8d52fe72-be88-4571-adff-3fabb6c216c0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ingl4b}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="407" width="69" height="15" uuid="d946abcd-cc29-48c4-8bfe-b34b5c0891f3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ano1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="75" y="407" width="74" height="16" uuid="1cda4199-6d0c-4800-b562-39fd07b6823f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_serie1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="153" y="408" width="190" height="14" uuid="00f93ac1-bd73-41ee-9e0d-0b41d9942d33"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_escola1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="344" y="408" width="112" height="14" uuid="df55c7b2-c1d9-47cb-9f57-062f04c78364"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cidade1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="456" y="408" width="94" height="14" uuid="6c0b745b-b49b-46cb-8039-abcc69f5aa23"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_estado1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="424" width="69" height="15" uuid="904401c0-385a-4d54-926f-809045cdf9cd"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ano2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="76" y="424" width="74" height="16" uuid="3957fe28-0919-4831-a107-8e0898f10ba2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_serie2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="152" y="426" width="190" height="14" uuid="81ad5b0a-181d-4d38-a5be-a5a73738cc9e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_escola2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="345" y="425" width="112" height="14" uuid="82a65c18-f771-4042-ab03-164e3c8b7505"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cidade2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="458" y="425" width="93" height="14" uuid="0fe5dcae-9204-4855-9ac1-2fb586fbba7a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_estado2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="440" width="69" height="15" uuid="4606d3f6-552a-4c8b-8345-43ec71837a1d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ano3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="456" width="69" height="15" uuid="11f05f9a-b55a-45d5-9a58-575d5bbe9486"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ano4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="75" y="440" width="74" height="16" uuid="b45cbc22-35e5-4302-93d5-f5dd5676f639"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_serie3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="75" y="454" width="74" height="16" uuid="677b568c-621f-4b5e-847b-6126a4e86d90"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_serie4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="152" y="442" width="190" height="14" uuid="14649257-8752-479d-9460-66dc6ab622ed"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_escola3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="152" y="456" width="190" height="14" uuid="0fdf46ca-5d59-4cf4-aded-b3999bf85a60"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_escola4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="346" y="440" width="112" height="14" uuid="f2b023e8-7c1a-4869-b5d0-093465faa794"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cidade3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="345" y="456" width="112" height="14" uuid="ff52b52d-d9f4-46fa-baa0-34056e88dfed"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cidade4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="458" y="439" width="93" height="14" uuid="c50119e8-481c-4658-8969-212e25584d3d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_estado3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="457" y="454" width="93" height="14" uuid="007e1205-0352-4214-a99f-e1185b6329a9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_estado4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="458" y="471" width="93" height="14" uuid="1c4d30d1-e5e7-4fb3-98b7-7f59e77dd1e1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_estado5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="345" y="472" width="112" height="14" uuid="2cb4cadb-0b12-496a-abeb-05a5b8c587c0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_cidade5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="151" y="471" width="190" height="14" uuid="b3665b7b-df6e-4742-ae93-0e558b4a71fc"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_escola5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="75" y="470" width="74" height="16" uuid="e5d73acc-6562-4d53-b9f3-6ab9d7a04301"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_serie5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="471" width="69" height="15" uuid="2987723a-b7c9-423d-ab94-e574a13cf43e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ano5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="231" y="488" width="37" height="17" uuid="f640b52b-a38f-417c-9faf-0858180d34d2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_aptoACursar}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="336" y="488" width="103" height="18" uuid="84a47a83-b97c-4487-84d5-93ed8a05658a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ensino}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="210" y="527" width="24" height="10" uuid="0010344b-997a-4443-bcfe-15f9393f5733"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_anoConcluido}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="526" width="21" height="12" uuid="ece3c401-445a-455a-bb66-e4e332167ef2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_letivoConcluido}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="249" y="536" width="19" height="11" uuid="6492b387-04ed-4571-90e6-0bd226c2ec53"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_aptoACursar}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="307" y="536" width="112" height="13" uuid="f9eca7a3-da7c-4ef7-96ad-796dbafbb79c"/>
+				<textElement verticalAlignment="Top">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tbl_historico_ensino}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="309" y="604" width="201" height="20" uuid="87a6f564-6e84-419e-a469-afe0f501cae5"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Regiane Garcia Moreira Corrêa]]></text>
+			</staticText>
+			<line>
+				<reportElement x="327" y="601" width="172" height="1" uuid="cd7b8156-8b2d-4382-a423-cd7a345673a2"/>
+			</line>
+			<staticText>
+				<reportElement x="370" y="644" width="87" height="20" uuid="a33c31b0-8b8e-4933-b189-aa9d4eb35cb3"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Vice Diretor de Escola]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="361" y="624" width="100" height="20" uuid="3b83448a-f511-41ec-8a75-b5525d4e25f7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[RG: 29.519.563-0]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="163" y="241" width="61" height="20" uuid="27230b76-24db-4a88-93b4-cdc805979931"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="241" width="61" height="20" uuid="8f16295c-17a2-4028-8080-a4f03e9fa6b2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="322" y="242" width="61" height="20" uuid="e7bfcbbd-3a94-44e8-b214-2d51ebdd5ed7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="406" y="243" width="61" height="20" uuid="d7a18d6a-b1fc-4347-bac1-10b13644d73f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="482" y="242" width="61" height="20" uuid="8ad07db7-3698-427d-8250-536b0c3bc44d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[1000]]></text>
+			</staticText>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="9" y="549" width="538" height="20" uuid="89d5e776-89fd-42ee-af2a-7923f0cedc0a"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="77" y="569" width="159" height="35" uuid="6b0b0bb0-822b-4de7-af9f-a43fae5d0226"/>
+				<imageExpression><![CDATA["\\Util\\assinatura.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="370" y="569" width="122" height="35" uuid="b6e587bc-9e18-4e39-9196-b3fe9c1f1af1"/>
+				<imageExpression><![CDATA["\\Util\\assinaturaR.png"]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+</jasperReport>
